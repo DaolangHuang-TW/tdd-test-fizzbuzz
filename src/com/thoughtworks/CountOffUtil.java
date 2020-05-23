@@ -7,6 +7,10 @@ public class CountOffUtil {
             countOff = "Fizz";
         }
 
+        if (number %5 == 0) {
+            countOff = "Buzz";
+        }
+
         if (countOff.isEmpty()) {
             countOff = String.valueOf(number);
         }

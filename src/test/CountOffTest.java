@@ -18,5 +18,10 @@ class CountOffTest {
         assertEquals(util.countOfWith(3), "Fizz");
     }
 
+    @org.junit.jupiter.api.Test
+    void should_say_Buzz_when_count_off_given_number_is_multiple_of_5() {
+        assertEquals(util.countOfWith(5), "Buzz");
+    }
+
 
 }
