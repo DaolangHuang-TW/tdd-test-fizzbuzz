@@ -42,4 +42,9 @@ class CountOffTest {
     void should_say_FizzWhizz_when_count_off_given_number_is_multiple_of_3_7() {
         assertEquals(util.countOfWith(21), "FizzWhizz");
     }
+
+    @org.junit.jupiter.api.Test
+    void should_say_FizzBuzzWhizz_when_count_off_given_number_is_multiple_of_3_5_7() {
+        assertEquals(util.countOfWith(105), "FizzBuzzWhizz");
+    }
 }
