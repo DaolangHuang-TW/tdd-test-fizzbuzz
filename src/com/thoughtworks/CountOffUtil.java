@@ -8,7 +8,7 @@ public class CountOffUtil {
         }
 
         if (number %5 == 0) {
-            countOff = "Buzz";
+            countOff += "Buzz";
         }
 
         if (number %7 == 0) {
