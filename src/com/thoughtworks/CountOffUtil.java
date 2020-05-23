@@ -12,7 +12,7 @@ public class CountOffUtil {
         }
 
         if (number %7 == 0) {
-            countOff = "Whizz";
+            countOff += "Whizz";
         }
 
         if (countOff.isEmpty()) {
